@@ -193,7 +193,7 @@ body {
 
 .hero-btn-item:hover,
 .hero-btn-item:focus {
-  color: var(--accent-color);
+  color: var(--main-text-color);
 }
 
 .hero-btn {
