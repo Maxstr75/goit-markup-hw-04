@@ -243,6 +243,32 @@ body {
   width: 270px;
 }
 
+.peculiarities-title-title::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+}
+
+.icon-antenna::before {
+  background-image: url();
+}
+
+.icon-clock::before {
+  background-image: url();
+}
+
+.icon-diagram::before {
+  background-image: url();
+}
+
+.icon-astronaut::before {
+  background-image: url();
+}
+
 .peculiarities-title {
   font-weight: 700;
   font-size: 14px;
