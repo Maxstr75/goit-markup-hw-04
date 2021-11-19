@@ -254,19 +254,19 @@ body {
 }
 
 .icon-antenna::before {
-  background-image: url();
+  background-image: url("../images/antenna\ 1.svg");
 }
 
 .icon-clock::before {
-  background-image: url();
+  background-image: url("../images/clock\ 1.svg");
 }
 
 .icon-diagram::before {
-  background-image: url();
+  background-image: url("../images/diagram\ 1.svg");
 }
 
 .icon-astronaut::before {
-  background-image: url();
+  background-image: url("../images/astronaut\ 1.svg");
 }
 
 .peculiarities-title {
@@ -276,6 +276,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color);
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
