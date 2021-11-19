@@ -157,10 +157,20 @@ body {
 
 /* --------Что предлагаем------ */
 .hero {
+  min-width: 1600px;
+  height: 600px;
   background: #2f303a;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+      rgba(77, 82, 146, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/overlay.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-container {
