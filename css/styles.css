@@ -375,6 +375,28 @@ body {
   padding-bottom: 30px;
 }
 
+.persons-social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.persons-social-item + .persons-social-item {
+  margin-left: 10px;
+}
+
+.persons-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.persons-social-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #2196f3;
+  border-radius: 50%;
+}
+
 /*-------------Подвал--------*/
 .footer {
   background-color: #2f303a;
