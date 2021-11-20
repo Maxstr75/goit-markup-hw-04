@@ -148,21 +148,6 @@ body {
   color: var(--accent-color);
 }
 
-.header-item-item::before {
-  display: flex;
-  content: "";
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-email::before {
-  background-image: url("../images/email\(hover\).svg");
-  width: 16px;
-  height: 12px;
-  margin-bottom: 10px;
-}
-
 .header-tel {
   font-weight: 500;
   font-size: 14px;
@@ -171,12 +156,6 @@ body {
   color: var(--main-text-color);
 }
 
-.icon-tel::before {
-  background-image: url("../images/smartphone.svg");
-  width: 10px;
-  height: 16px;
-  margin-bottom: 10px;
-}
 /* --------Что предлагаем------ */
 .hero {
   min-width: 1600px;
