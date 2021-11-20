@@ -140,11 +140,27 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  margin-right: 30px;
 }
 
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
+}
+
+.header-item-item::before {
+  display: flex;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-email::before {
+  background-image: url("../images/email\(hover\).svg");
+  width: 16px;
+  height: 12px;
+  margin-bottom: 10px;
 }
 
 .header-tel {
@@ -155,6 +171,12 @@ body {
   color: var(--main-text-color);
 }
 
+.icon-tel::before {
+  background-image: url("../images/smartphone.svg");
+  width: 10px;
+  height: 16px;
+  margin-bottom: 10px;
+}
 /* --------Что предлагаем------ */
 .hero {
   min-width: 1600px;
