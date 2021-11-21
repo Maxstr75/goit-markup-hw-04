@@ -578,7 +578,12 @@ body {
   display: flex;
 }
 
-.social-social + .social-social {
+.social-social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.social-social-item + .social-social-item {
   margin-right: 10px;
 }
 
