@@ -583,7 +583,7 @@ body {
   height: 44px;
 }
 
-.social-social-item + .social-social-item {
+.social-social-item:not(:last-child) {
   margin-right: 10px;
 }
 
