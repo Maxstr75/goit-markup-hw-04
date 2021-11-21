@@ -406,8 +406,8 @@ body {
 
 .persons-social-link:hover,
 .persons-social-link:focus {
-  background-color: var(--main-text-color);
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--main-text-color);
 }
 
 /*-------------Подвал--------*/
