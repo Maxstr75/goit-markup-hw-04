@@ -115,7 +115,7 @@ body {
   margin-right: 93px;
 }
 
-/* .header-link {
+.header-link {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -131,7 +131,7 @@ body {
 
 .current {
   color: var(--accent-color);
-} */
+}
 
 .header-mail {
   display: flex;
@@ -460,7 +460,6 @@ body {
 .client-social-item {
   width: 170px;
   height: 92px;
-  border-radius: 1px solid #afb1b8;
 }
 
 .client-social-item + .client-social-item {
@@ -474,6 +473,8 @@ body {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .client-social-icon {
