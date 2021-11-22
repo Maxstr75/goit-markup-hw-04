@@ -429,7 +429,7 @@ body {
 .persons-social-link:hover,
 .persons-social-link:focus {
   background-color: var(--accent-color);
-  color: var(--main-text-color);
+  color: var(--main-title-color);
 }
 
 /* --------- Постоянные клиенты */
