@@ -594,18 +594,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #afb1b8;
+
   background: rgba(255, 255, 255, 0.1);
 }
 
 .social-social-link {
-  fill: currentColor;
+  fill: #ffffff;
 }
 
 .social-social-link:hover,
 .social-social-link:focus {
   background-color: var(--accent-color);
-  color: var(--main-text-color);
+  color: var(--main-title-color);
 }
 
 /*---------------Портфолио-------*/
