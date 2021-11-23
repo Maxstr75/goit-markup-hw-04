@@ -231,8 +231,7 @@ rgba(0, 0, 0, 0.15);
 
 .hero-btn-item:hover,
 .hero-btn-item:focus {
-  color: var(--main-btn-color);
-  background-color: #2196f3;
+  background-color:#188CE8;
 }
 
 .hero-btn {
