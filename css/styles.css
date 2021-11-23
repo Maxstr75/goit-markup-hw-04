@@ -180,7 +180,7 @@ body {
 }
 /* --------Что предлагаем------ */
 .hero {
-  min-width: 1600px;
+  max-width: 1600px;
   height: 600px;
   background: #2f303a;
   text-align: center;
