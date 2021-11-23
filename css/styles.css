@@ -440,6 +440,7 @@ rgba(0, 0, 0, 0.15);
 /* --------- Постоянные клиенты */
 .client {
   background-color: #ffffff;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
